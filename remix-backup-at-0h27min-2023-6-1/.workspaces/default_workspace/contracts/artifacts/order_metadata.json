@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "accepted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentstatus",
+				"outputs": [
+					{
+						"internalType": "enum order.status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pending",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rejected",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shipped",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enum.sol": "order"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enum.sol": {
+			"keccak256": "0xbdc3c22694e0454d4bb45d95f49ab7b4ee874843de558e5a17a14f3d3298a14d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://07642b3f8edbfdbb556ae3b00b593563c2b713c6143526a39ad38d34fe76e139",
+				"dweb:/ipfs/QmcvskYPWPdZpo9pZNN32zBtc5hKzwPYthgRgmm1P42Rxh"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addbalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/start.sol": "bank"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/start.sol": {
+			"keccak256": "0xf17d7ee1aa703c7ccb4cc861fef811f3403d734cf7222ae7d34ff6169e8dd922",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0651ee3078f2b04a0790785476c11fbe848c0adf8509d75c54dbe9998d3f7f74",
+				"dweb:/ipfs/QmXPuMPGS4JAysjvJsAHHmtkWaSXriNfENmwLu6tx5hzeu"
+			]
+		}
+	},
+	"version": 1
+}

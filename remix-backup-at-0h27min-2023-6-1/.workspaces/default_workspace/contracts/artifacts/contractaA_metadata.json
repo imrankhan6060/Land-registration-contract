@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/callToAnotherContract.sol": "contractaA"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/callToAnotherContract.sol": {
+			"keccak256": "0xd80adf2b891f53fd931c79a60d0704c706128024c5e987f6bdb4f755185a28ed",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1437764b2d995eae763a6bfe488bc99d648ac1054f25c1b62216d82645509c39",
+				"dweb:/ipfs/QmdrJS1fwkPcTsH2MxtwJbS1Sis1sY5v7fmRoNhofewVSW"
+			]
+		}
+	},
+	"version": 1
+}
